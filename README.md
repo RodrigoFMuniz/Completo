@@ -1,28 +1,39 @@
-# Neural-Network-studies
+# Redes Neurais
+
 ## Perceptron
+
+## Conceitos
+
+- Perceptron, ou neurônio artificial é o odelo mais básico de um sistema de aprendizagem, neste caso, linear.
+- É um modelo matemático que recebe várias entradas, x1, x2, … e produz uma única saída binária.
+- O Perceptron calcula uma soma ponderada das entradas, subtrai um limite e passa um dos dois valores possíveis como resultado.
+- É limitado.
+
+## Perceptron
+
       i = [1,-2,3,4,5,-6]
       w = [6,5,4,-3,2,1]
       def somatoria(entradas=[], pesos=[]):
           soma = 0
           if len(entradas)== 0 or len(pesos)==0:
               return 0
-          comb = zip(entradas,pesos)    
+          comb = zip(entradas,pesos)
           for item in comb:
-              soma += item[0]*item[1]    
-          return soma 
+              soma += item[0]*item[1]
+          return soma
 
 
       def ativacao_step_function(n):
           if n>0:
               return 1
-          return 0 
+          return 0
 
       # def novo_peso(n):
       #     return n *
 
       print(ativacao_step_function(somatoria(i,w)))
 
-## Perceptron with Numpy
+## Perceptron com Numpy
 
       import numpy as np
 
@@ -66,8 +77,8 @@
               geracao+=1
               if geracao == 1000:
                   break
-         
-## Percepeton - Weight adjustment
+
+## Percepeton - Weight adjustment(Ajuste de peso)
 
       import numpy as np
 
@@ -111,4 +122,3 @@
               geracao+=1
               if geracao == 1000:
                   break
-
