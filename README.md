@@ -9,6 +9,27 @@
 - O Perceptron calcula uma soma ponderada das entradas, subtrai um limite e passa um dos dois valores possíveis como resultado.
 - É limitado.
 
+## Entradas
+
+- Entradas de dados
+
+## Pesos
+
+- Inteligência da rede
+- Fator compensador das entradas
+
+## Função somatória
+
+- Soma dos produtos das entradas pelos seus respectivos pesos
+
+## Função de ativação
+
+## Erro
+
+## Gradiente
+
+## Parâmetro Delta
+
 ## Perceptron
 
       i = [1,-2,3,4,5,-6]
