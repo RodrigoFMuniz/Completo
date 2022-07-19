@@ -6,9 +6,16 @@ A   B   S
 0   1   0
 1   0   0
 1   1   1
+
+re -> resposta esperada
+rc -> resposta calculada
+tax_aprend = taxa de aprendizagem
 """
 
 import numpy as np
+
+
+tax_aprend = 0.90
 
 
 def soma(a, b):
@@ -19,5 +26,17 @@ def soma(a, b):
     return np.dot(a, b)
 
 
-s = soma([1, 2, 3], [1, 2, 3])
-print(s)
+def ativacao(param):
+    return 1 if param > 1 else 0
+
+
+def erro(re, rc):
+    return re - rc
+
+
+def ajuste_peso(p, tax_aprend, e, erro):
+    return p + (tax_aprend*e*erro)
+
+
+s = soma([0, 0, 1, 1, ], [0, 0, 1, 1])
+print(ativacao(s))
