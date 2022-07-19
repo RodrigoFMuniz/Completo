@@ -18,6 +18,10 @@
 - Inteligência da rede
 - Fator compensador das entradas
 
+### Ajuste de pesos
+
+>
+
 ## Função somatória
 
 - Soma dos produtos das entradas pelos seus respectivos pesos
