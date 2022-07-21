@@ -14,13 +14,14 @@ taxa_aprend = taxa de aprendizagem
 
 import numpy as np
 
-taxa_acerto = 0.95
 taxa_aprendizagem = 0.01
 valor = 0
 geracao = 1
 
+# entradas = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
+# saidas = np.array([0, 0, 0, 1])
 entradas = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
-saidas = np.array([0, 0, 0, 1])
+saidas = np.array([0, 1, 1, 1])
 pesos = np.array([0.0, 0.0])
 # pesos = np.array([0.786,0.206,0.076])
 print(entradas)
