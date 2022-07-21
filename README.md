@@ -200,3 +200,7 @@
     print(calcula_saida(entradas[1]))
     print(calcula_saida(entradas[2]))
     print(calcula_saida(entradas[3]))
+
+## Funções linearmente separáveis
+
+- Funções cujas imagens possam ser separadas por uma reta, ou polinômio do primeiro grau, ex.: Step function
