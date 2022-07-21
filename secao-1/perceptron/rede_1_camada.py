@@ -15,7 +15,7 @@ taxa_aprend = taxa de aprendizagem
 import numpy as np
 
 taxa_acerto = 0.95
-taxa_aprendizagem = 0.1
+taxa_aprendizagem = 0.01
 valor = 0
 geracao = 1
 
