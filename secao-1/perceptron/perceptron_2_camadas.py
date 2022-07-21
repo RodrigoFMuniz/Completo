@@ -22,8 +22,8 @@ def step_function(n):
     return 0
 
 
-def ajuste_peso(e, err, peso, taxa_aprendizagem):
-    return peso + (taxa_aprendizagem*e*err)
+def ajuste_peso(entrada, err, peso, taxa_aprendizagem):
+    return peso + (taxa_aprendizagem*entrada*err)
 
 
 def calc_err(pesos):
