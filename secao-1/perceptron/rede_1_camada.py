@@ -34,7 +34,6 @@ def step_function(n):
 def calcula_saida(registro):
     print(registro)
     s = registro.dot(pesos)
-    print(f'Valor de calcula saída: {s}')
     return step_function(s)
 
 
@@ -67,5 +66,7 @@ def treinar():
 
 treinar()
 
-print(entradas)
-print(np.asarray(entradas[0]))
+print(calcula_saida(entradas[0]))
+print(calcula_saida(entradas[1]))
+print(calcula_saida(entradas[2]))
+print(calcula_saida(entradas[3]))
