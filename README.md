@@ -33,6 +33,9 @@
 
 ## Erro
 
+        def erro(saida_esperada, saida_calculada):
+            return saida_esperada - saida_calculada
+
 ## Gradiente
 
 ## Parâmetro Delta
