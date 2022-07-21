@@ -20,7 +20,10 @@
 
 ### Ajuste de pesos
 
->
+- Correção da inteligência da rede para avanço no aprendizado
+
+        def ajuste_pesos(entrada, err, peso, taxa_aprendizagem):
+            return peso + (taxa_aprendizagem*entrada*err)
 
 ## Função somatória
 
