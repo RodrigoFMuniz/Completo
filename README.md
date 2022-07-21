@@ -31,6 +31,9 @@
 
 ## Função de ativação
 
+        def step_function(n):
+            return 1 if n >= 1 else 0
+
 ## Erro
 
         def erro(saida_esperada, saida_calculada):
