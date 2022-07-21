@@ -29,6 +29,9 @@
 
 - Soma dos produtos das entradas pelos seus respectivos pesos
 
+        def soma(e, p):
+            return np.dot(e, p)
+
 ## Função de ativação
 
         def step_function(n):
