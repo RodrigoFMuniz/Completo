@@ -204,3 +204,7 @@
 ## Funções linearmente separáveis
 
 - Funções cujas imagens possam ser separadas por uma reta, ou polinômio do primeiro grau, ex.: Step function
+
+## Redes neurais multicamadas
+
+
